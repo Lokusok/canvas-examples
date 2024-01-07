@@ -1,3 +1,5 @@
+import './style.css';
+
 import Ball from "./props/ball.js";
 import Player from "./props/player.js";
 import Score from "./props/score.js";

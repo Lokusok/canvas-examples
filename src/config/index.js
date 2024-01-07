@@ -1,4 +1,9 @@
-const canvas = document.querySelector('#game');
+const canvas = document.createElement('canvas');
+canvas.id = 'game';
+canvas.width = 800;
+canvas.height = 450;
+document.body.append(canvas);
+
 const ctx = canvas.getContext('2d');
 
 const config = {
